@@ -1,0 +1,22 @@
+{
+  "name": "node-in-action",
+  "version": "1.0.0",
+  "description": "Buy the book [here](https://www.manning.com/books/node-js-in-action-second-edition).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosepRA/node-in-action.git"
+  },
+  "author": "Yosep Ryan Agusta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YosepRA/node-in-action/issues"
+  },
+  "homepage": "https://github.com/YosepRA/node-in-action#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
