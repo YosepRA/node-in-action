@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/YosepRA/node-in-action#readme",
   "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.2"
   }
 }
