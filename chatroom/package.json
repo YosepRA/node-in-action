@@ -7,12 +7,13 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "nodemon -e js,html,css"
+    "start": "nodemon -e js,html,css ./out/server.js",
+    "compile": "./node_modules/.bin/babel src --out-dir out --watch"
   },
   "author": "Yosep Ryan Agusta",
   "license": "ISC",
   "dependencies": {
     "mime": "^1.2.7",
-    "socket.io": "^1.7.4"
+    "socket.io": "^0.9.6"
   }
 }
