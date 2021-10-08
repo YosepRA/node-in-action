@@ -1,4 +1,13 @@
 {
-  "presets": ["@babel/preset-env"],
-  "babelrcRoots": [".", "./chatroom"]
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "6"
+        }
+      }
+    ]
+  ],
+  "babelrcRoots": [".", "./p01-c02/chatroom"]
 }
