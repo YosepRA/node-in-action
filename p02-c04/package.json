@@ -1,0 +1,15 @@
+{
+  "name": "p02-c04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yosep Ryan Agusta <yosep.ryan.yra@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.2.2"
+  }
+}
