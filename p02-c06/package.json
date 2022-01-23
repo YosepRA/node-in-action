@@ -1,0 +1,17 @@
+{
+  "name": "p02-c06",
+  "version": "1.0.0",
+  "description": "Building a web application using Connect middleware.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch out/"
+  },
+  "author": "Yosep Ryan Agusta <yosep.ryan.yra@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^14.2.0"
+  }
+}
