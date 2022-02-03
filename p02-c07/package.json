@@ -1,0 +1,28 @@
+{
+  "name": "p02-c07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w out/ -w .env"
+  },
+  "keywords": [],
+  "author": "Yosep Ryan Agusta <yosep.ryan.yra@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "compression": "^1.7.4",
+    "connect": "^3.7.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^14.3.2",
+    "errorhandler": "^1.5.1",
+    "express-basic-auth": "^1.2.1",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "qs": "^6.10.3",
+    "serve-favicon": "^2.5.0",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.14.2"
+  }
+}
