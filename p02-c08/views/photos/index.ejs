@@ -1,0 +1,35 @@
+<%- include('../templates/header', {title: 'Gallery'}) %>
+
+<div class="container">
+  <!-- prettier-ignore -->
+  <%- include('../templates/page-header', {title: 'Gallery', subtitle: 'Make your own picture.'}) %>
+
+  <section class="list">
+    <div class="list__button-container mb-3 d-flex justify-content-end">
+      <a href="/new" class="list__upload-button btn btn-primary">
+        Upload Photo
+      </a>
+    </div>
+
+    <div class="row g-3">
+      <% photos.forEach(({ _id, name, url }) => { %>
+      <article class="col-12 col-md-6 col-lg-4" class="photo">
+        <div class="card">
+          <a href="/<%= _id %>/download" class="photo__download">
+            <img
+              src="<%= url %>"
+              class="photo__image card-img-top"
+              alt="<%= name %>"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="photo__name card-title"><%= name %></h5>
+          </div>
+        </div>
+      </article>
+      <% }) %>
+    </div>
+  </section>
+</div>
+
+<%- include('../templates/footer') %>

@@ -1,0 +1,29 @@
+<%- include('../templates/header', { title: 'Gallery' }) %>
+
+<div class="container">
+  <a href="/" class="d-block pt-3 text-secondary">Back to home</a>
+
+  <%- include('../templates/page-header', { title: 'Upload Photo' }) %>
+
+  <form action="/" method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input
+        type="text"
+        name="name"
+        class="form-control"
+        id="name"
+        aria-describedby="photo-name"
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="photo" class="form-label">Photo</label>
+      <input class="form-control" type="file" id="photo" name="photo" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<%- include('../templates/footer') %>
